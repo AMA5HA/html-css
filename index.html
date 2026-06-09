@@ -5,6 +5,8 @@
 </head>
 
 <body>
+    <fieldset>
+        <form>
 
     <h1> Welcome to my first web page</h1>
     <h2> Welcome to my first web page</h2>
@@ -55,6 +57,37 @@
      <!--subscript and superscript tags-->
      <h2>h<sub>2</sub>0</h2>
      <h2>25<sup>th</sup>November</h2>
+
+     <!--form tags-->
+     <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Enter Your name" name="name"><br><br>
+        <input for="email">Email:</label>
+        <input type="email" id="email" placeholder="Enter Your email" name="email"><br><br>
+        <label for="password" id="password">password:</label>
+        <input type="password" id="password" placeholder="Enter Your password" name="password"><br><br>
+
+        <label for="color" id="colour">choose a color:</label>
+        <input type="color" id="color" name="colour"><br><br>
+
+        <label for="date" id="date">Choose a date:</label>
+        <input type="date" id="date" name="date"><br><br>
+
+        <label for="country">country:</label>
+        <select id="country" name="country">
+            <option value="usa">united states</option>
+            <option value="uk">united kingdom</option>
+            <option value="uk">united kingdom</option>
+        </select><br><br>
+
+        <label for="check" id="check">I agree to the terms and conditions</label>
+        <input type="checkbox" id="check" name="check"><br><br>
+
+
+
+        <input type="submit" value="submit">
+     </form>
+     </fieldset>
 
      
 
